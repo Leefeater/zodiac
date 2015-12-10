@@ -1,0 +1,48 @@
+body {
+	background: #333 url('stars-align.jpg') no-repeat right top;
+	background-size:cover;
+	font-family: 'Mystery Quest', cursive;
+}
+#dateEnter {
+	color:white;
+	text-align:center;
+	margin-top:200px;
+	line-height:3;
+}
+#dateEnter h1 {
+	font-size: 50px;
+	font-weight:400;
+}
+#dateEnter select {
+	color:black;
+}
+img {
+	height:30%;
+	width:30%;
+	margin:20px 0 50px 0;
+	border:2px solid #fff;
+}
+.zodiac {
+	text-align:center;
+	display:none;
+	margin:2% auto;
+	width:88%;
+	color:#333;
+}
+.zodiac h1 {
+	font-size:70px;
+}
+.zodiac p {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight:700;
+}
+footer {
+	background:#666;
+	color:#ccc;
+	text-decoration:underline;
+	font-size:10px;
+	width:100%;
+	position:absolute;
+	bottom:0;
+	text-align:center;
+}
