@@ -37,12 +37,20 @@ img {
 	font-weight:700;
 }
 footer {
-	background:#666;
 	color:#ccc;
 	text-decoration:underline;
 	font-size:10px;
+	font-weight:700;
 	width:100%;
-	position:absolute;
-	bottom:0;
+	
+	
+	margin-top:70px;
 	text-align:center;
+}
+
+@media (max-width:400px) {
+	img {
+		height:200px;
+		width:200px;
+	}
 }

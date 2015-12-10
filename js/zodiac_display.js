@@ -2,6 +2,7 @@
 function transition() {
 document.getElementById("dateEnter").style.display = "none";
 document.body.style.backgroundImage = "url('img/sunny.jpg')";
+document.getElementById("footerText").style.color = "#666";
 }
 
 //Display zodiac sign
